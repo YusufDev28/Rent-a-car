@@ -85,9 +85,9 @@ body {
 }
 
 .container {
-    margin: 0!important;
-    max-width: 133rem!important;
-    padding: 0 2.5rem!important;
+    margin: 0;
+    max-width: 133rem;
+    padding: 0 2.5rem;
 }
 
 .shape {
@@ -113,3 +113,63 @@ body {
     width: 50%;
     z-index: 2;
 }
+
+.hero-content_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    max-width: 50rem;
+    z-index: 3;
+    margin-left: 4rem;
+}
+
+.hero-content_text h4 {
+    color: black;
+    font-size: 2rem;
+}
+
+.hero-content_text h1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.hero-content_text h1 span {
+    color: blue;
+}
+
+.hero-content_text p {
+    color: grey;
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.hero-content_text_btns {
+    font-size: 1.2rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.hero-content_text_btns a {
+    text-decoration: none;
+}
+
+.hero-content_text_btns_book-ride {
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px 0 rgba(6, 99, 229, 0.35);
+    padding: 1.5rem 1.5rem;
+    color: white;
+}
+
+.hero-content_text_btns_learn-more {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 1.5rem 1.5rem;
+}
+

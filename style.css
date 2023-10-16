@@ -75,3 +75,41 @@ body {
     color: #fff;
     padding: 1rem 1.5rem;
 }
+
+
+.hero-section {
+    width: 100%;
+    position: relative;
+    height: 97vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin: 0!important;
+    max-width: 133rem!important;
+    padding: 0 2.5rem!important;
+}
+
+.shape {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.hero-content {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+
+}
+
+.hero-content_car-img {
+    margin-top: 5rem;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    z-index: 2;
+}

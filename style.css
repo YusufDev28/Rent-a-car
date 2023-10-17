@@ -207,34 +207,15 @@ body {
     grid-gap: 2rem;
 }
 
-.book-content-box .box-form-car-type {
-    display: flex;
-    flex-direction: column;
-}
-
-.book-content-box .box-form-car-time {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.book-content-box-button {
-    background-color: blue;
-    box-shadow: 0 10px 15px 0 rgba(6, 99, 229, 0.35);
-    color: white;
-    cursor: pointer;
-    font-size: 1.2rem;
-    font-weight: 500;
-    height: fit-content;
-    width: auto;
-    padding: 0.5rem 5rem;
-    transition: all .3s;
-}
-
 h2 {
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 2.7rem;
+}
+
+.book-content-box .box-form-car-type {
+    display: flex;
+    flex-direction: column;
 }
 
 .book-content-box .box-form-car-type label {
@@ -248,11 +229,43 @@ h2 {
 .book-content-box .box-form-car-type select {
     border: 1px solid #ccd7e6;
     border-radius: 3px;
+    color: #ababab;
     font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    padding: 1rem 1.1rem;
+}
+
+.book-content-box .box-form-car-time {
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .book-content-box .box-form-car-time label {
     font-size: 1.5rem;
     font-weight: 600;
+}
+
+.book-content-box-button {
+    align-self: self-end;
+    background-color: blue;
+    border: none;
+    box-shadow: 0 10px 15px 0 rgba(6, 99, 229, 0.35);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 1rem 1.1rem;
+    transition: all .3s;
+}
+
+.book-content-box .box-form-car-time input {
+    border: 1px solid #ccd7e6;
+    color: #ababab;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+    padding: 1rem 1.1rem;
 }
 

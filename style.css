@@ -269,3 +269,59 @@ h2 {
     padding: 1rem 1.1rem;
 }
 
+
+
+.plan-section {
+    background-color: #fff;
+    padding: 5rem 0;
+}
+
+.plan-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-container-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plan-container-title h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.plan-container-title h2 {
+    font-size: 3.5rem;
+    margin: 0.5rem;
+}
+
+.plan-container-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 2rem;
+    padding: 0 3rem;
+}
+
+.plan-container-boxes-box {
+    padding: 1rem 3rem;
+    text-align: center;
+}
+
+.plan-container-boxes-box img {
+    height: auto;
+    width: 9rem;
+}
+
+.plan-container-boxes-box h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.plan-container-boxes-box  {
+    color: rgb(102, 99, 99);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+

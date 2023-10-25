@@ -63,6 +63,7 @@ export const CAR_DATA = [
         price: "50",
         img: Benz,
         model: "Benz GLK",
+        
         mark: "Mercedes",
         year: "2006",
         doors: "4/5",

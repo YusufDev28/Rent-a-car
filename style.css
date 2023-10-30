@@ -474,3 +474,63 @@ h2 {
     background-size: cover;
     padding: 2rem 0 10rem;
 }
+
+.choose-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-container-img{
+    margin: 0 auto;
+    height: auto;
+    width: 90%;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.text-container-left {
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: left;
+}
+
+.text-container-left h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.text-container-left h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.text-container-left p {
+    color: #706f7b;
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.text-container-left a {
+    display: flex;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 0.3rem;
+    box-shadow: 0 10px 15px 0 rgba(6, 99, 229, 0.35);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    transition: all .3s;
+    width: fit-content;
+}
